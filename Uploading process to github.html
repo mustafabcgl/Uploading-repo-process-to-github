@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Githuba dosya ekleme süreci (lokaldeki bilgisayardan) Yükleyeceğin dosyanın
+    bilgisayardaki yerini bul. VS Code programını aç. Terminal-New Terminal-git
+    bash e gel. $ işarenin yanına sırasıyla alttaki komutları yaz ve her
+    defasında enter yap. git init: VKS çalışmaları bu komut ile başlar. Versiyon
+    oluşturmak için, her proje için başlangıçta 1 kez yapılır. Dosyaları VKS ye
+    gönderir. git add . : Çalışma alanındaki değişiklikleri stage gönderir. git
+    commit -m”v1” : Stage te biriken dosyalardan v1 adında bir version
+    oluşturur. git status : dosyaların working spacede mi (kırmızı ise), yoksa
+    staging area da mı (yeşilse buradadır) olsuğunu gösterir. git branch -m
+    main: git branch mustafa: Adı mustafa olan yeni branch oluşturur git
+    checkout mustafa : Mustafa branchını aktif hale getirir **Githuba gir. Orada
+    yüklemek için bir dosya adı oluştur. Yükleyeceğin dosya ile aynı isimde
+    olabilir. Oluşturduğun reponun adresiin kopyala. git remote add origin
+    githubdaki repository adresi, https ile başlayan adres : Bilgisayarımdaki
+    çalışmam githuba bağlandı. Artık birbirlerini tanıyorlar. Adres yerine
+    githubda bu dosya için açacağın repositorynin http ile başlayan adresini
+    kopyalayıp yapıştıracaksın. git push -u origin mustafa: Dosya yüklendi (push
+    edildi). Projenin v1 versionu yükledik. Diyelim ki projede bir değişiklik
+    yaptık ve bu değişikliği githubdaki yüklü olan dosyaya yansıtacağız. Bunun
+    için sırasıyla sadece şu işlemler yapılacak. git add . : Çalışma alanındaki
+    değişiklikleri stage gönderir. git commit -m”v2” : yeni bir version
+    (istediğin bir isimde-örnek olarak v3 diyelim) oluşturur. git push : github
+    a dosya yükler. Bu komutta resimdeki mesaj gelirse mesajın en altındaki
+    satırı (alttaki resmimdeki satırı) kopyala ve $ işaretinin yanına yapıştırıp
+    ENTER yap.
+  </body>
+</html>
